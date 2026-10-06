@@ -26,10 +26,10 @@ const mainNavItems: NavItem[] = [
     },
 
     {
-    title: 'Gig applications',
-    href: gigApplicationsIndex(),
-    icon: Music,
-},
+        title: 'Gig applications',
+        href: gigApplicationsIndex(),
+        icon: Music,
+    },
 ];
 
 const footerNavItems: NavItem[] = [

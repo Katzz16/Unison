@@ -3,7 +3,6 @@
 use App\Http\Controllers\GigApplicationController;
 use Illuminate\Support\Facades\Route;
 
-
 Route::inertia('/', 'Welcome')->name('home');
 
 Route::middleware(['auth', 'verified'])->group(function () {
